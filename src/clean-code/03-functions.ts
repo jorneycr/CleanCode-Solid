@@ -22,7 +22,8 @@
         rating: number;
         cast: string[];
     }
-    function movie({ title, description, rating, cast }: IMovie) {
+
+    function createMovie({ title, description, rating, cast }: IMovie) {
         console.log({ title, description, rating, cast });
     }
 
